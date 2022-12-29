@@ -39,15 +39,6 @@
     background-color: var(--cor-p1);
 }
 
-.marca a {
-    font-family: 'Cookie', cursive;
-    color: var(--cor-p2);
-}
-
-.marca a:hover {
-    color: var(--cor-b2);
-}
-
 .lista-menu li a {
     font-family: 'Bree Serif', serif;
     font-size: 1.50em;
@@ -60,6 +51,9 @@
 
 .menu {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
     gap: 32px;
 }
 
@@ -173,10 +167,16 @@
 /*Footer*/
 
 .footer {
+    display: flex;
+    justify-content: space-between;
     background-color: var(--cor-b2);
     padding: 20px;
     color: var(--cor-w0);
     text-align: center;
+}
+
+.footer h2 a {
+    color: #FFF;
 }
 
 /*Responsivo*/
