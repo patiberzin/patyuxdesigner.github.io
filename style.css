@@ -63,7 +63,7 @@
     display: flex;
     justify-content: space-evenly;
     padding: 60px;
-    max-width: 1200px;
+    max-width: 100%; /*alterado estava 1200px*/
     margin: 0 auto;
 }
 
@@ -201,7 +201,7 @@
 
 @media(max-width: 600px) {
     .header-bg {
-        max-width: 100%;
+       /* max-width: 100%;*/
        padding: 10px;
        flex-direction: column;
     }
@@ -241,7 +241,7 @@
         display: block;
     }
     .projetos-bg {
-        max-width: 100%;
+       /* max-width: 100%;*/
         display: grid;
         grid-template-columns: 1fr;
         background-color: var(--cor-b0);
